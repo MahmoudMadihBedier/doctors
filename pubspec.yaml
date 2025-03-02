@@ -39,7 +39,7 @@ dependencies:
   # for the splash screen
   flutter_native_splash: 2.4.4
   #Contains code to deal with internationalized/localized messages, date
-  intl: ^0.20.2
+  intl: ^0.19.0
   #for the localization and the json model 
   easy_localization: ^3.0.7+1
   json_annotation: ^4.9.0
