@@ -32,10 +32,33 @@ dependencies:
     sdk: flutter
 
 
-  # The following adds the Cupertino Icons font to your application.
+  # The following next depandances are required.
   # Use with the CupertinoIcons class for iOS style icons.
+  
   cupertino_icons: ^1.0.8
+  # for the splash screen
+  flutter_native_splash: 2.4.4
+  #Contains code to deal with internationalized/localized messages, date
+  intl: ^0.20.2
+  #for the localization and the json model 
+  easy_localization: ^3.0.7+1
+  json_annotation: ^4.9.0
+  json_serializable: ^6.9.4
+  #for the Network request
+  pretty_dio_logger: ^1.4.0
+  retrofit_generator: ^9.1.9
+  retrofit: ^4.4.2
+  dio: ^5.8.0+1
+  #for the domain layer
+  get_it: ^8.0.3
+  #state management
+  freezed_annotation: ^3.0.0
+  freezed: ^3.0.3
+  bloc: ^9.0.0
 
+
+
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
